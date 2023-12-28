@@ -1,5 +1,6 @@
 import sys
 import logging
+import * from tkinter
 from pysitemap import crawler
 from pysitemap.parsers.lxml_parser import Parser
 
