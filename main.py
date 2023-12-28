@@ -3,6 +3,7 @@ import logging
 import * from tkinter
 from pysitemap import crawler
 from pysitemap.parsers.lxml_parser import Parser
+# This python program is for creating sitemap of a website
 
 if __name__ == '__main__':
     if '--iocp' in sys.argv:
