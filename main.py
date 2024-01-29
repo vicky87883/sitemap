@@ -6,7 +6,7 @@ from tkinter import scrolledtext
 from pysitemap import crawler
 from pysitemap.parsers.lxml_parser import Parser
 import os
-
+# this code is for sitemap generator of a simple website
 def generate_sitemap():
     root_url = entry.get()
     if root_url:
